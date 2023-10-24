@@ -1,0 +1,8 @@
+:root {
+    --logo-color: hex#2196F3;
+    --upper-back-color: hex#2F303A;
+    --half-visible-white: rgba(255, 255, 255, 0.6);
+    --h4-text-color: rgba(33, 33, 33, 1);
+    --p-text-color: rgba(117, 117, 117, 1);
+    --lower-back-color: rgba(245, 244, 250, 1);
+}
