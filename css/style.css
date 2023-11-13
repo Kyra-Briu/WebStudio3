@@ -1,18 +1,32 @@
 :root {
-    --logo-color: rgba(33, 150, 243, 1);
-    --upper-back-color: rgba(47, 48, 58, 1);
-    --half-visible-white: rgba(255, 255, 255, 0.6);
-    --h4-text-color: rgba(33, 33, 33, 1);
-    --p-text-color: rgba(117, 117, 117, 1);
-    --lower-back-color: rgba(245, 244, 250, 1);
+    --checked: #2196F3;
+    --upper-back: #2F303A;
+    --transperent: rgba(255, 255, 255, 0.60);
+    --project-black: #212121;
+    --text: #757575;
+    --lower-back: #F5F4FA;
 }
-.efficient_solutions{
-    font-family: Roboto;
-    font-weight:900;
-    font-size:44px; 
+body{
+    font-family:'Roboto', sans-serif;
+    font-weight:400;
+    font-size:14px;
+    line-height: 1.7;
+    letter-spacing:0.48px;
 }
-.web_logo{
-    font-family: Raleway;
-    font-weight:700;
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+.logo{
     font-size:26px;
+    color:var(--checked);
+    font-family: 'Raleway', serif;
+    font-weight:700;
+    letter-spacing:0.78px; 
 }
+.logo span{
+    color:black;
+}
+.nav-list-link
