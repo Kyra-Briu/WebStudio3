@@ -1,0 +1,78 @@
+:root {
+    --checked: #2196F3;
+    --upper-back: #2F303A;
+    --transperent: rgba(255, 255, 255, 0.60);
+    --project-black: #212121;
+    --text: #757575;
+    --lower-back: #F5F4FA;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    letter-spacing:0.48px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+.logo{
+    font-size:26px;
+    color:var(--checked);
+    font-family: 'Raleway', serif;
+    font-weight:700;
+    letter-spacing:0.78px; 
+}
+.header .logo span{
+    color:black;
+}
+.footer .logo span{
+    color:white;
+}
+.nav-list-link{
+    color:var(--project-black);
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.nav-list-link:hover{
+    color:var(--checked);
+}
+.header-link-contacts{
+    color:var(--text);
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.header-link-contacts:hover{
+    color:var(--checked);
+}
+.main-list-menu-item{
+    background-color: var(--lower-back);
+}
+.main-list-menu-item:hover{
+    background-color:var(--checked);
+}
+.main-list-menu-link{
+    color:var(--project-black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    align-items:center;
+}
+.main-list-menu-link:hover{
+    color:white;
+}
+.card-list-title{
+    color: var(--project-black);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+.card-list-text{
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+    padding: 6px 22px;
+}

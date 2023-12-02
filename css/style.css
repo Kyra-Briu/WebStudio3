@@ -129,32 +129,3 @@ a{
     color:var(--transperent);
     letter-spacing: 0.42px;
 }
-.main-list-menu-item{
-    background-color: var(--lower-back);
-}
-.main-list-menu-item:hover{
-    background-color:var(--checked);
-}
-.main-list-menu-link{
-    color:var(--project-black);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.6;
-    /* Чому непрацює text-align тф коли використтовувати align-items? */
-    align-items:center; 
-}
-.main-list-menu-link:hover{
-    color:white;
-}
-.card-list-title{
-    color: var(--project-black);
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 1.08px;
-}
-.card-list-text{
-    color: var(--text);
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.48px;
-}
