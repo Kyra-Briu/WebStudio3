@@ -47,21 +47,21 @@ a{
 .header-link-contacts:hover{
     color:var(--checked);
 }
-.main-list-menu-item{
-    background-color: var(--lower-back);
-}
-.main-list-menu-item:hover{
-    background-color:var(--checked);
-}
 .main-list-menu-link{
     color:var(--project-black);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
     align-items:center;
+    /* display:inline-blosk -- дает елементу особенности и блокового (можно ставить конкретный рамер и дикорации блока) и рядкового тега (щставляет место рядом с собой для следующего елемента, дикорации текста)  */
+    display:inline-block;
+    padding:6px 22px;
+    background-color: var(--lower-back);
+    border-radius:10px;
 }
 .main-list-menu-link:hover{
     color:white;
+    background-color:var(--checked);
 }
 .card-list-title{
     color: var(--project-black);
