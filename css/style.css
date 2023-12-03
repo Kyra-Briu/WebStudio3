@@ -25,12 +25,23 @@ a{
     font-family: 'Raleway', serif;
     font-weight:700;
     letter-spacing:0.78px; 
+    margin:24px 0 25px 215px;;
+    
 }
 .header .logo span{
     color:black;
 }
 .footer .logo span{
     color:white;
+}
+.nav-list{
+    margin-right:344px;
+    margin-left:93px;
+}
+.nav-list-item{
+    /* margin:32px 50px; */
+    display: inline;
+    margin:32px 50px;
 }
 .nav-list-link{
     color:var(--project-black);
